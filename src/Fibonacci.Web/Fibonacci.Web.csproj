@@ -9,5 +9,9 @@
   <ItemGroup>
     <PackageReference Include="Antoine.Mortelier.Fibonacci" Version="1.0.0" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fibonacci\Fibonacci.csproj" />
+  </ItemGroup>
   
 </Project>
